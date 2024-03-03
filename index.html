@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet adobe</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./main.js">
+        <!-- =============== GOOGLE FONTS ============== -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+        <!-- ===============  Titan fonts ============== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap" rel="stylesheet">
+        <!-- ============== Noto fonts ============== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap" rel="stylesheet">
+        <!-- ============== FONT AWESOME ============== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- nav 영역 -->
+        <div class="navMenu">
+            <nav>
+                <!-- 로고 div -->
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/logo.png">
+                    </a>
+                </div>
+                <!-- 메뉴 div -->
+                <div class="navbar">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">SignUp</a></li>
+                    </ul>
+                </div>
+                <!-- 햄버거 버튼 -->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+
+        <!-- 1번째 section -->
+        <div class="hero">
+            <!-- 왼쪽 그림 div -->
+            <div class="pos">
+                <div class="imgBox">
+                    <img src="./images/hero.png" alt="petimage">
+                </div>
+            </div>
+            <!-- 오른쪽 텍스트 div -->
+            <div class="textBox">
+                <h1 class="subtitle">Adopt pet</h1>
+                <p class="subtext">모든 강아지를 사랑하자는 취지로 만들고 있습니다</p>
+                <p class="subtext">강아지들의 사랑스러운 모습에 데려왔지만 키우다보니 이런 저런 이유로 버림받은 강아지들이 너무 많습니다. 일부의 이기심으로 사람에게 상처받은 아이들에게 세상의 따뜻함을 보여주세요.</p>
+            </div>
+        </div>
+
+        <!-- 2번째 section -->
+        <div class="section2">
+            <!-- 뼈다귀 이미지 -->
+            <div class="resImg">
+                <img src="./images/dog-bone.png">
+            </div>
+            <!-- 2번째 section 메인 -->
+            <div class="Box">
+                <!-- 왼쪽 텍스트 -->
+                <div class="textArea">
+                    <h1>Be an Angel for pets</h1>
+                    <p>여러분들을 다시 사랑할 준비가 되었어요!</br>
+                    저의 가족이 되어주세요. </p>
+                    <div class="btnBox">
+                        <button class="button">ADOPT</button>
+                        <button class="button pad">VISIT</button>
+                    </div>
+                </div>
+                <!-- 오른쪽 이미지 -->
+                <div class="imgArea">
+                    <img src="./images/form_image.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- 3번째 section -->
+        <div class="sec3">
+            <!-- 제목 -->
+            <h1>Our Pets</h1>
+            <!-- 이미지 div -->
+            <div class="imgBox">
+                <div class="model pd">
+                    <img src="./images/model1.png" alt="">
+                    <button class="button pd">가산 백호</button>
+                </div>
+                <div class="model pd">
+                    <img src="./images/model2.png" alt="">
+                    <button class="button pd">루이</button>
+                </div>
+                <div class="model pd">
+                    <img src="./images/model3.png" alt="">
+                    <button class="button pd">백현</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4번째 section -->
+        <div class="sec4">
+            <!-- 왼쪽 텍스트 -->
+            <div class="txtBox">
+                <h1>Intrested?</h1>
+                <h3>Sign Up!</h3>
+                <p>저희에 대해 좀 더 알고싶으시면 연락저를 남겨주세요! 저희에 대해 자세히 알려드릴게요.</p>
+            </div>
+            <!-- 오른쪽 form div -->
+            <div class="fBox">
+                <form action="#">
+                    <input type="text" id="fname" name="fname" value="" placeholder="Name"><br>
+                    <input type="text" id="fname" name="fname" value="" placeholder="SurName"><br>
+                    <input type="text" id="fname" name="fname" value="" placeholder="City"><br>
+                    <input type="text" id="fname" name="fname" value="" Number placeholder="Phone"><br>
+                    <input class="submit" type="submit" value="Submit">
+                </form> 
+            </div>
+        </div>
+
+        <!-- 5번째 section -->
+        <div class="sec5">
+            <!-- 왼쪽 이미지 -->
+            <div class="imgB">
+                <img src="./images/Bottom.png" alt="">
+            </div>
+            <!-- 오른쪽 텍스트 -->
+            <div class="txtB">
+                <h1>Want to visit?</h1>
+                <p>저희가 보호받고 있는 곳에이에요. 오셔서 저희와 함께 즐거운 시간만 보내주셔도 충분해요.</p>
+                <button class="button">Call us</button>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer">
+                <!-- sns div-->
+                <div class="row">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+                <!-- footer 제목-->
+                <div class="ftext">
+                    <h1>Save a life</h1>
+                </div>
+                <!-- footer 메뉴 -->
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <!-- 저작권 div -->
+                <div class="row">
+                    Copyright © 2024 GANTULGA MINJINSOR- All rights reserved
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
